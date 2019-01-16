@@ -36,4 +36,12 @@ print(df.values)
 # mengakses values dari data frame dan indexing
 print('indexing setelah values :\n', df.values[3])
 
+'operasi data di pandas'
+print('\n')
+rng = np.random.RandomState(42)
+# data time series
+ser = pd.Series(rng.randint(0, 10, 4))
+# data frame crostabe
+data = pd.DataFrame(rng.randint(1, 10, (3,4)), 
+                    columns=['a','b','c','d'])
 
