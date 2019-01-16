@@ -45,3 +45,5 @@ ser = pd.Series(rng.randint(0, 10, 4))
 data = pd.DataFrame(rng.randint(1, 10, (3,4)), 
                     columns=['a','b','c','d'])
 
+# Handling Mising Data
+
