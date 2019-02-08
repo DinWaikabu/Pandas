@@ -23,7 +23,7 @@ print('mwmilih kolom dan baris menggunakn iloc : \n',df.iloc[:5, :3])
 print('memilih kolom : \n',df['# of Orders'].head())
 print('memilih kolom dengan cara lain : \n', df.Service.head())
 
-#Transpose data farem
+#Transpose data frame
 print(df.T)
 
 # agregation dan menambah kolom baru 
