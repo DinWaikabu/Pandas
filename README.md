@@ -1,3 +1,3 @@
 # Pandas
-Pandas Data Manipulation
+Pandas Manipulasi Data
 ## Membuat Data Frame
